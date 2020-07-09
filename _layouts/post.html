@@ -35,8 +35,9 @@
           <section class="text-justify">
             {{ page.content | markdownify }}
           </section>
-
-          <!-- {% include share.html %} -->
+<!--
+          {% include share.html %}
+-->
 
           {% if jekyll.environment == "production" %}
             {% include comments.html %}
